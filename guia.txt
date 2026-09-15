@@ -1,0 +1,20 @@
+// criar um formulario em html pra coletar as informacoes de login (login.php)
+
+//essa mesma(login.php) vai possuir tambem um link para se cadastrar (cadastro.php)
+// e um link para recuperar a senha (recuperar_senha.php)
+
+
+//cadastarar uma banco de dados de teste e provar que eu cnsigo fazer login e cadastrar um usuario 
+
+
+
+// cadastrar pessoa, e ele incluir pessoa entao eu posso fazer 
+$usuario = new Usuario();
+
+//se a pagina cadastrar <form>. em html eu posso passar o preenchido pelo metodo post
+
+//nome:felipe, email:canseidesersexy@css.com ,senha:123456
+
+new usuario(":nome", ":email", ":senha");
+
+//stmt->bindParam(":Usuario.getNome", $nome);
